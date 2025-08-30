@@ -44,11 +44,12 @@ const Navbar = () => {
       </div>
     </div>
 
-    <div className='h-full overflow-hidden w-full fixed top-0 z-2 flex items-center bg-amber-700'>
-      <div className='h-full w-[40%] bg-[#D10C0D]  overflow-hidden flex items-center'>
-        <img className='w-full relative left-30 scale-400 shadow-2xl-rotate-90' src={chipsImg} alt="" />
+    <div
+     className='h-full overflow-hidden w-full fixed top-0 z-2 flex items-center '>
+      <div className='h-full w-[20%]  overflow-hidden flex items-center bg-[#EA002A]'>
+        <img className='w-[200%] relative left-30 scale-400 shadow-2xl-rotate-90' src={chipsImg} alt="" />
       </div>
-      <div className='h-[100%] py-25 w-[60%] flex flex-col md:justify-between shadow-lg bg-[#FFC300]'>
+      <div className='h-[100%] py-25 w-[80%] flex flex-col md:justify-between bg-[#F26540] shadow-lg '>
         <div className='h-[40%] w-full flex items-center my-5 pl-4'>
           <img className='w-[60%]' src={pringles3dLogo} alt="" />
         </div>
